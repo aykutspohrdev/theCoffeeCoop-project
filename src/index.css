@@ -1,0 +1,10 @@
+@import "./vars.css";
+
+body {
+  margin: 0;
+  background-color: var(--background);
+}
+
+a {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

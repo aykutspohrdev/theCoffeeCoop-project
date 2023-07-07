@@ -1,0 +1,32 @@
+@import "../vars.css";
+
+.NavBar {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  height: 4rem;
+  width: 100%;
+  background-color: transparent;
+  /* border: 1px solid var(--borders); */
+  position: absolute;
+  z-index: 5;
+  top: 2rem;
+}
+
+.navLinkElement {
+  align-self: center;
+  margin: auto 2rem auto 2rem;
+  color: var(--textInverted);
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.navLinkElement:hover {
+  color: var(--textInvertedHighlight);
+}
+
+.logoImg {
+  max-height: 100%;
+}

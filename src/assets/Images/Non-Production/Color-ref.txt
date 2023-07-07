@@ -1,0 +1,6 @@
+  --text: #221a12;
+  --background: #fef9ee;
+  --primary: #dba87a;
+  --secondary: #f1f1e2;
+  --borders: rgb(209, 203, 189);
+  --accent: #a5ce7a;
