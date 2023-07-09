@@ -1,4 +1,4 @@
-import classes from "./HeroSplashIMage.module.css";
+import classes from "./HeroSplashImage.module.css";
 import splashArt from "../../../assets/Images/Home/Hero-SplashArt-Interior.webp";
 
 // TODO: Add blurred out version of image for lazy loading and better visibility
