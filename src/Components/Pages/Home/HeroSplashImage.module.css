@@ -41,6 +41,7 @@
     rgb(255, 237, 221),
     rgb(194, 120, 55)
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* white-space: nowrap; */

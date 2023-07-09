@@ -61,7 +61,6 @@ const PromotionSection = () => {
                 alt="Promotional art of a Croissant that The Coffee Coop serves"
               />
             </div>
-
             <p className={classes.promoText}>
               Want a little Paris for breakfast? We got you - with our
               croissants!

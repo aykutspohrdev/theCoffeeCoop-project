@@ -4,7 +4,7 @@
 
 .NavBar {
   display: flex;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   flex-direction: row;
   justify-content: center;
@@ -25,6 +25,8 @@
   text-decoration: none;
   transition: color 0.15s;
 }
+
+
 
 .navLinkElement:hover {
   color: var(--textInvertedHighlight);
