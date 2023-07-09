@@ -1,26 +1,29 @@
 @import "../vars.css";
 
+/* Desktop Style */
+
 .NavBar {
   display: flex;
+  position: absolute;
   overflow: hidden;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   height: 4rem;
-  width: 100%;
+  min-width: 100%;
   background-color: transparent;
-  /* border: 1px solid var(--borders); */
-  position: absolute;
-  z-index: 5;
-  top: 2rem;
+  z-index: 3;
+  transition: 0ms;
+  border: none;
+  top: 1rem;
 }
 
 .navLinkElement {
-  align-self: center;
   margin: auto 2rem auto 2rem;
   color: var(--textInverted);
   font-size: 1.5rem;
   text-decoration: none;
-  transition: 0.15s;
+  transition: color 0.15s;
 }
 
 .navLinkElement:hover {
@@ -28,5 +31,75 @@
 }
 
 .logoImg {
-  max-height: 100%;
+  max-height: 3.5em;
+  transition: 0ms;
+  margin: 2rem;
+}
+
+.navToggle {
+  display: none;
+  position: absolute;
+  z-index: 4;
+}
+
+/* Mobile Styles */
+
+@media (max-width: 870px) {
+  .navToggle {
+    position: fixed;
+    display: block;
+    z-index: 4;
+  }
+
+  .NavBar {
+    flex-direction: column;
+    min-width: 20%;
+    min-height: 100%;
+    background-color: none;
+    border: none;
+    border-left: none;
+    transform-origin: left;
+    transform: scale(0, 1);
+    padding: 1rem;
+    position: fixed;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+    top: 0;
+    transition: 250ms, box-shadow 100ms ease-in-out;
+  }
+
+  .logoImgContainer {
+    order: -3;
+    align-self: center;
+    margin-top: 1rem;
+    max-width: 50%;
+  }
+
+  .logoImg {
+    margin: 0;
+  }
+
+  .navLinkElement {
+    margin: 2rem 1rem;
+    color: var(--textInverted);
+    font-size: clamp(0.5em, 3vw + 0.5em, 1.5em);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .logoImgContainer,
+  .navLinkElement {
+    opacity: 0;
+    transition: opacity 50ms ease-in-out;
+  }
+  .navToggle:checked ~ .NavBar {
+    transform: scale(1);
+    background-color: rgb(70, 64, 59, 0.9);
+    border-right: 2px solid var(--accent);
+    transition: 250ms, box-shadow 250ms ease-in-out 300ms;
+  }
+
+  .navToggle:checked ~ .NavBar > * {
+    transition: opacity 150ms ease-in-out 150ms;
+    opacity: 1;
+  }
 }

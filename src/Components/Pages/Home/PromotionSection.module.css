@@ -1,0 +1,75 @@
+@import "../../../vars.css";
+
+.topText,
+.middleText,
+.bottomText {
+  font-family: "Dancing Script", cursive;
+  line-height: 1em;
+  /* text-transform: uppercase; */
+  margin-bottom: 0;
+}
+
+.topText {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.middleText {
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+.bottomText {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  background-color: var(--promotionBG);
+  text-align: center;
+  min-height: 20rem;
+  max-height: 75rem;
+}
+
+.promotionContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  min-width: 100%;
+
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 5%;
+}
+
+.promotionItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  max-width: 12rem;
+  /* border: 2px solid pink; */
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.promoImage {
+  border-radius: 50%;
+  max-height: 10rem;
+  outline: 2px solid rgb(136, 125, 110);
+  outline-offset: 0.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.promoText {
+  font-size: 0.8em;
+  color: rgb(136, 125, 110);
+  max-width: 9em;
+}

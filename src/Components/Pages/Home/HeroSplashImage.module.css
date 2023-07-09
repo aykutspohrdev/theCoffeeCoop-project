@@ -1,4 +1,4 @@
-@import "../../vars.css";
+@import "../../../vars.css";
 
 .imageContainer {
   display: flex;
@@ -6,6 +6,7 @@
   align-content: center;
   position: relative;
   min-height: 50rem;
+  box-shadow: 0px 0px 25px 5px rgb(63, 58, 48);
 }
 
 .splashImage {
