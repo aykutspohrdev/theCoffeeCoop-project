@@ -60,7 +60,8 @@
 }
 
 .promoImage {
-  border-radius: 50%!important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
   max-height: 10rem;
   outline: 2px solid rgb(136, 125, 110);
   outline-offset: 0.5rem;
