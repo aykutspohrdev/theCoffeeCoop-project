@@ -66,3 +66,9 @@
   font-size: clamp(1em, 3vw + 2rem, 2em);
   margin: 0;
 }
+
+@media (max-width: 870px) {
+  .textContainer{
+    max-width: 80%;
+  }
+}

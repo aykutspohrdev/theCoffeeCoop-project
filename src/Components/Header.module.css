@@ -49,7 +49,7 @@
 
 /* Mobile Styles */
 
-@media (max-width: 870px) {
+@media (max-width: 940px) {
   .navToggle {
     position: fixed;
     display: block;
