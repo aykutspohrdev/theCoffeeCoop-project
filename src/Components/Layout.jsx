@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
-import "src/Server/server";
+import "@/Server/server";
 
 const Layout = () => {
   const {isLoading, data} = useQuery({
