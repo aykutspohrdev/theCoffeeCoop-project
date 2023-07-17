@@ -50,17 +50,14 @@
   "courseOverviewItems": [
     {
       "headline": "Learning",
-      "imageSrc": "src/assets/Images/Courses/CourseOverviewItem_Img_1.webp",
       "text": "Learn from passionate baristas who share their expertise, guiding you through the art and science of coffee brewing."
     },
     {
       "headline": "Brewing",
-      "imageSrc": "src/assets/Images/Courses/CourseOverviewItem_Img_2.webp",
       "text": "Gain hands-on experience as you master the intricacies of coffee brewing, exploring different methods and refining your skills."
     },
     {
       "headline": "Tasting",
-      "imageSrc": "src/assets/Images/Courses/CourseOverviewItem_Img_1.webp",
       "text": "Showcase your brews to appreciative customers, receiving valuable feedback that enhances your coffee-making journey."
     }
   ]
