@@ -25,3 +25,4 @@ dist-ssr
 
 #non-Git Files
 ./assets/images/Non-Production/
+./Components/Pages/Courses/CourseSelectorSubComponents/*

@@ -1,6 +1,13 @@
+import CoursesSplashImage from "./CoursesSplashImage";
+import CourseOverview from "./CourseOverview/CourseOverview";
+
 const Courses = () => {
-    return <h1>This will have some Courses in it!</h1>;
-  };
-  
-  export default Courses;
-  
+  return (
+    <>
+      <CoursesSplashImage />
+      <CourseOverview />
+    </>
+  );
+};
+
+export default Courses;

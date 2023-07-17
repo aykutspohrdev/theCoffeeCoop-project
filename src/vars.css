@@ -1,12 +1,21 @@
 :root {
+  /* Colors */
   --text: #221a12;
-  --textInverted: #e9c198;
-  --textInvertedHighlight: #ecdccc;
-  --background: #fef9ee;
+  --textInverted: rgb(233, 193, 152);
+  --textInvertedHighlight: rgb(236, 220, 204);
+  --background: #f3eee8;
   --primary: #dba87b;
   --secondary: rgb(245, 237, 231);
   --borders: rgb(209, 203, 189);
   --accent: rgb(206, 170, 122);
-  --promotionBG: rgb(233, 216, 195);
+  --accentDes: rgb(245, 242, 238);
 
+  --promotionBG: rgb(233, 216, 195);
+  --headerAltBG: rgb(14, 22, 19);
+
+  /* NavBar Height */
+  --navHeight: 4rem;
+
+  /* Course Overview Item Height + Width */
+  --itemHeight: 20rem;
 }

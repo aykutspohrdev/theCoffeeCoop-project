@@ -1,0 +1,93 @@
+.courseInfoContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  outline: 2px solid rgb(146, 137, 125);
+  min-width: 4%;
+  transform-origin: center;
+  background-color: var(--accentDes);
+  transition: 500ms;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 3px rgb(155, 145, 125);
+}
+
+.bgImage {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  z-index: -2;
+  transform: scaleY(1);
+}
+
+.bgImage:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 20%,
+    var(--accentDes) 40%,
+    var(--accentDes) 100%
+  );
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  transform: scaleY(1);
+}
+
+.courseInfoContainer[data-active="false"] {
+  margin: 3rem 0;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.courseInfoContainer[data-active="true"] {
+  min-width: 92%;
+  max-width: 92%;
+  transition: 500ms;
+  z-index: 5;
+}
+
+.courseInfoContainer[id="intermediate"] {
+  z-index: 2;
+}
+
+.overviewH1,
+.overviewP {
+  margin-left: 40%;
+  font-size: 1.5em;
+}
+
+
+/* Set container Children (All except */
+.courseInfoContainer[data-active="false"] > *:not(:first-child) {
+  opacity: 0;
+  font-size: 0em;
+  color: rgba(160, 130, 101, 0);
+  transition: color 100ms ease-in-out 50ms, font-size 50ms ease-in-out 0ms,
+    opacity 100ms ease-in-out 50ms;
+}
+
+.courseInfoContainer[data-active="true"] > *:not(:first-child) {
+  opacity: 1;
+  color: rgb(49, 41, 32);
+  transition: color 100ms ease-in-out 500ms, font-size 100ms ease-in-out 500ms,
+    opacity 100ms ease-in-out 500ms;
+}
+
+.courseInfoContainer[data-active="false"] > .bgImage {
+  visibility: hidden;
+  transition: visibility 100ms ease-in-out 250ms;
+}
+
+.courseInfoContainer[data-active="true"] > .bgImage {
+  visibility: visible;
+  transition: visibility 100ms ease-in-out 500ms;
+}

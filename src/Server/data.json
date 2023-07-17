@@ -1,0 +1,67 @@
+{
+  "courses": [
+    {
+      "imageSrc": "src/assets/Images/Courses/Course_Promo_1.webp",
+      "id": "course-beginner",
+      "skillLevel": "beginner",
+      "price": "$",
+      "shortDescription": "Brew like a boss with essential techniques and tips.",
+      "longDescription": "Unlock the secrets of brewing amazing coffee at home. This beginner course covers everything you need to know to brew delicious cups of coffee that will impress your friends and elevate your mornings. From selecting the right beans to mastering brewing methods, you'll gain the skills and confidence to create café-worthy brews in your own kitchen.",
+      "whatYoullLearn": [
+        "Discover various brewing methods",
+        "Understand coffee-to-water ratios",
+        "Learn to adjust extraction for optimal flavors",
+        "Explore different roast profiles",
+        "Grasp the basics of coffee cupping"
+      ]
+    },
+    {
+      "imageSrc": "src/assets/Images/Courses/Course_Promo_2.webp",
+      "id": "course-intermediate",
+      "skillLevel": "intermediate",
+      "price": "$$",
+      "shortDescription": "Elevate your coffee game with advanced brewing techniques.",
+      "longDescription": "Ready to level up your coffee brewing skills? This intermediate course is designed for coffee enthusiasts who want to delve deeper into the world of specialty coffee. You'll learn advanced brewing techniques, explore the nuances of different coffee origins, and gain insights into the factors that influence flavor profiles. Get ready to take your coffee game to new heights and wow your taste buds with a richer and more refined coffee experience.",
+      "whatYoullLearn": [
+        "Explore pour-over techniques",
+        "Experiment with grind sizes",
+        "Gain insights into water quality's impact on taste",
+        "Discover the art of cold brewing",
+        "Master the art of alternative brewing methods"
+      ]
+    },
+    {
+      "imageSrc": "src/assets/Images/Courses/Course_Promo_3.webp",
+      "id": "course-barista",
+      "skillLevel": "barista",
+      "price": "$$$",
+      "shortDescription": "Become a coffee maestro and master the art of professional brewing.",
+      "longDescription": "Unleash your inner barista and embark on a journey to become a true coffee connoisseur. This barista-level course is designed for coffee enthusiasts who are passionate about creating extraordinary coffee experiences. From perfecting the art of espresso extraction to mastering the delicate techniques of latte art, you'll develop the skills and knowledge needed to craft exceptional coffee beverages that will leave your customers in awe.",
+      "whatYoullLearn": [
+        "Master latte art",
+        "Perfect espresso extraction",
+        "Dive into milk steaming techniques",
+        "Understand the science of coffee extraction",
+        "Explore advanced espresso recipes and drink customization"
+      ]
+    }
+  ],
+
+  "courseOverviewItems": [
+    {
+      "headline": "Learning",
+      "imageSrc": "src/assets/Images/Courses/CourseOverviewItem_Img_1.webp",
+      "text": "Learn from passionate baristas who share their expertise, guiding you through the art and science of coffee brewing."
+    },
+    {
+      "headline": "Brewing",
+      "imageSrc": "src/assets/Images/Courses/CourseOverviewItem_Img_2.webp",
+      "text": "Gain hands-on experience as you master the intricacies of coffee brewing, exploring different methods and refining your skills."
+    },
+    {
+      "headline": "Tasting",
+      "imageSrc": "src/assets/Images/Courses/CourseOverviewItem_Img_1.webp",
+      "text": "Showcase your brews to appreciative customers, receiving valuable feedback that enhances your coffee-making journey."
+    }
+  ]
+}

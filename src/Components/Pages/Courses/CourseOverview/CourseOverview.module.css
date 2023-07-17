@@ -1,0 +1,26 @@
+@import "src/vars.css";
+
+.overviewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.overviewHeadline {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 20rem;
+  font-size: clamp(1.8em, 5vw + 1.7em, 3em);
+}
+
+@media (max-width: 870px) {
+  .overviewHeadline {
+    margin-left: 0;
+    font-size: clamp(1.8em, 5vw + 1.2em, 3em);
+  }
+  .overviewContainer {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,68 @@
+@import "../../../vars.css";
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 50rem;
+  box-shadow: 0px 0px 25px 5px rgb(63, 58, 48);
+}
+
+.splashImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 20%;
+  max-width: 25%;
+  z-index: 5;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.courseHeadline {
+  color: var(--textInverted);
+  font-size: clamp(0.3em, 3vw + 1em, 3em);
+  z-index: 5;
+  margin-bottom: 1rem;
+}
+
+.courseParagraph {
+  color: var(--textInvertedHighlight);
+  font-size: 1.25em;
+  z-index: 5;
+  max-width: 75%;
+  margin: 0;
+}
+
+.splashName {
+  background: linear-gradient(
+    to right,
+    rgb(194, 120, 55),
+    rgb(255, 237, 221),
+    rgb(194, 120, 55)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* white-space: nowrap; */
+  font-size: clamp(1em, 3vw + 2rem, 2em);
+  margin: 0;
+}

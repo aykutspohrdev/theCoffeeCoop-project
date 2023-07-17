@@ -1,0 +1,9 @@
+.courseHead {
+    text-align: center;
+  }
+  
+  .courseHeadLetter {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  

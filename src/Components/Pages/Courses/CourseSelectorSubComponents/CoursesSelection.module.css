@@ -1,0 +1,67 @@
+@import "../../../vars.css";
+
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  padding: 2rem;
+}
+
+.headline {
+  font-family: "Dancing Script", cursive;
+  font-size: clamp(2.5em, 5vw + 0.5em, 3em);
+  font-weight: bold;
+}
+
+.coursesSelector {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 50rem;
+}
+
+.courseInfoContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  outline: 2px solid rgb(146, 137, 125);
+  min-width: 4%;
+  transform-origin: center;
+  background-color: var(--accentDes);
+  transition: 500ms;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 3px rgb(109, 102, 87);
+}
+
+.courseInfoContainer[data-active="false"] {
+  margin: 3rem 0;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.courseInfoContainer[data-active="true"] {
+  min-width: 92%;
+  max-width: 92%;
+  transition: 500ms;
+  z-index: 5;
+}
+
+.courseInfoContainer[id="intermediate"] {
+  z-index: 2;
+}
+
+.courseHead {
+  text-align: center;
+}
+
+.courseHeadLetter {
+  display: inline-block;
+  margin: 0 1rem;
+}

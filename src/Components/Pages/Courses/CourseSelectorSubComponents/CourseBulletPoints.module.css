@@ -1,0 +1,19 @@
+.learningsList {
+    display: flex;
+    flex-direction: column;
+    max-height: 15%;
+    margin-top: 0;
+}
+
+.bullet
+ {
+  margin-top: 0.25rem;
+  margin-left: 40%;
+  font-size: 1.5em;
+}
+
+.learningsHeadline {
+    margin-left: 40%;
+    margin-bottom: 0.5rem;
+
+}

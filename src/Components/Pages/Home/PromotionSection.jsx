@@ -6,7 +6,7 @@ import promo4 from "../../../assets/Images/Home/Promotion-Images/Latte_Coffee_Pr
 
 const PromotionSection = () => {
   return (
-    <>
+    <section>
       <div className={classes.sectionContainer}>
         <h1 className={classes.topText}>
           What you&apos;ll find <br />
@@ -68,7 +68,7 @@ const PromotionSection = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

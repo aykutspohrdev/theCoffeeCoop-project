@@ -4,8 +4,12 @@ import PromotionSection from "./PromotionSection";
 function Home() {
   return (
     <>
-      <HeroSplashImage />
-      <PromotionSection />
+      <section>
+        <HeroSplashImage />
+      </section>
+      <section>
+        <PromotionSection />
+      </section>
     </>
   );
 }

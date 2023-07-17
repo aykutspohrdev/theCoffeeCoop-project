@@ -5,7 +5,7 @@ import splashArt from "../../../assets/Images/Home/Hero-SplashArt-Interior.webp"
 
 const HeroSplashImage = () => {
   return (
-    <div className={classes.imageContainer}>
+    <section className={classes.imageContainer}>
       <img
         className={classes.splashImage}
         src={splashArt}
@@ -18,7 +18,7 @@ const HeroSplashImage = () => {
           <h1 className={classes.splashName}>The Coffee Coop</h1>
         </span>
       </h1>
-    </div>
+    </section>
   );
 };
 
