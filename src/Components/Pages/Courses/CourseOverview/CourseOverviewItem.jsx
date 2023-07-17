@@ -3,9 +3,7 @@ import { APIContext } from "src/Components/Context/APIContext";
 import classes from "./CourseOverviewItem.module.css";
 
 const CourseOverviewItem = (props) => {
-
   const APIdata = useContext(APIContext);
-  const imageURL = new URL(`src/assets/Images/Courses/`, import.meta.url).href;
 
   if (APIdata.loading) {
     return <h1 className={classes.itemContainer}>Loading Data... </h1>;
@@ -16,7 +14,7 @@ const CourseOverviewItem = (props) => {
           <img
             className={classes.itemImage}
             src={
-              `${imageURL}CourseOverviewItem_Img_${props.itemNum}.webp`
+              `src/assets/Images/Courses/CourseOverviewItem_Img_${props.itemNum}.webp`
             }
           ></img>
         </div>
