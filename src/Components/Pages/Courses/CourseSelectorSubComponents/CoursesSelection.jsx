@@ -1,4 +1,4 @@
-import CourseOverview from "./CourseSelectorSubComponents/CourseOverview_Dep";
+import CourseOverview from "./CourseOverview_Dep";
 import classes from "./CoursesSelection.module.css";
 
 const CoursesSelection = () => {
