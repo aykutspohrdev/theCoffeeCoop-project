@@ -11,7 +11,7 @@
 
 .overviewHeadline {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 20rem;
+  margin-left: 10vw;
   font-size: clamp(1.8em, 5vw + 1.7em, 3em);
 }
 
