@@ -8,7 +8,6 @@
         <li>Café Overview</li>
         <li>Online Courses on Coffee Making</li>
         <li>Online Shop for Coffee and Accessories</li>
-        <li>Event Calendar</li>
         <li>Blog Posts</li>
         <li>Contact Information</li>
     </ul>
